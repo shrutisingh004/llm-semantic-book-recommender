@@ -174,7 +174,7 @@ The app is deployed on Hugging Face Spaces using Gradio. You can try it live at 
 
 ## ️ Built With
 
-- [Streamlit](https://streamlit.io) — UI framework
+- [Gradio](https://gradio.app) — UI framework
 - [LangChain](https://langchain.com) — LLM orchestration and retrieval
 - [ChromaDB](https://www.trychroma.com) — Vector database
 - [Sentence Transformers](https://sbert.net) — Semantic embeddings
