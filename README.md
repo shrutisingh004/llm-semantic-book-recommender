@@ -179,5 +179,3 @@ The app is deployed on Hugging Face Spaces using Gradio. You can try it live at 
 - [ChromaDB](https://www.trychroma.com) — Vector database
 - [Sentence Transformers](https://sbert.net) — Semantic embeddings
 - [Pandas](https://pandas.pydata.org) — Data processing
-
----
