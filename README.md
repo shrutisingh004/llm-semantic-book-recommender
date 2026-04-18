@@ -5,8 +5,8 @@
 **Find your next favourite book — not by keywords, but by meaning.**
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-0.x-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-Spaces-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-Vector%20Store-orange?style=flat-square)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)](https://huggingface.co/spaces/shrutisingh004/book-recommender)
@@ -62,7 +62,7 @@ Results
 | Vector store | ChromaDB (persisted locally) |
 | Embeddings & retrieval | LangChain |
 | Emotion scores | Pre-computed (joy, sadness, fear, anger, surprise) |
-| UI | Streamlit |
+| UI | Gradio |
 
 ---
 
