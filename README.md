@@ -69,7 +69,7 @@ Results
 ## ️ Project Structure
 
 ```
-book-recommender/
+llm-semantic-book-recommender/
 │
 ├── app.py                          # Streamlit app (main entry point)
 ├── requirements.txt                # Python dependencies
