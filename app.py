@@ -20,10 +20,6 @@ books["large_thumbnail"] = np.where(
     books["large_thumbnail"]
 )
 
-# raw_docs = TextLoader("tagged_description.txt", encoding="utf-8").load()
-# text_splitter = CharacterTextSplitter(chunk_size=0.1, chunk_overlap=0, separator="\n")
-# docs = text_splitter.split_documents(raw_docs)
-
 embedding = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
