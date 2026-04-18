@@ -164,27 +164,6 @@ python app.py
 
 ---
 
-## Dependencies
-
-```
-streamlit
-pandas
-numpy
-python-dotenv
-langchain
-langchain-community
-langchain-huggingface
-langchain-chroma
-sentence-transformers
-```
-
-Install everything in one command:
-```bash
-pip install -r requirements.txt
-```
-
----
-
 ## ️ Deployment
 
 #### Hugging Face Spaces
