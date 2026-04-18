@@ -172,10 +172,8 @@ The app is deployed on Hugging Face Spaces using Gradio. You can try it live at 
 
 ---
 
-## ️ Built With
+<div align="center">
 
-- [Gradio](https://gradio.app) — UI framework
-- [LangChain](https://langchain.com) — LLM orchestration and retrieval
-- [ChromaDB](https://www.trychroma.com) — Vector database
-- [Sentence Transformers](https://sbert.net) — Semantic embeddings
-- [Pandas](https://pandas.pydata.org) — Data processing
+*Built with LangChain · Gradio · ChromaDB · Sentence Transformers · Pandas*
+
+</div>
