@@ -135,15 +135,13 @@ pip install -r requirements.txt
 Create a `.env` file in the project root:
 ```env
 # Add any API keys here if needed
-OPENAI_API_KEY=your_key_here # only if using OpenAI embeddings
+HUGGINGFACEHUB_API_TOKEN = your_token_here
 ```
 
 **5. Run the app**
 ```bash
-streamlit run app.py
+python app.py
 ```
-
-Open your browser at **http://localhost:8501** 
 
 ---
 
