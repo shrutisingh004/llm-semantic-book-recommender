@@ -23,10 +23,21 @@ books["large_thumbnail"] = np.where(
 embedding = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
-db_books = Chroma(
-    persist_directory="./chroma_db",
-    embedding_function=embedding
+
+raw_docs = TextLoader("tagged_description.txt").load()
+text_splitter = CharacterTextSplitter(separator="\n", chunk_size=0, chunk_overlap=0)
+docs = text_splitter.split_documents(raw_docs)
+db_books = Chroma.from_documents(
+    docs,
+    embedding=embedding,
+    persist_directory="./chroma_db"
 )
+
+# Loading the database without recomputing
+# db_books = Chroma(
+#     persist_directory="./chroma_db",
+#     embedding_function=embedding
+# )
 
 def retrieve_semantic_recommendations(
         query: str,
